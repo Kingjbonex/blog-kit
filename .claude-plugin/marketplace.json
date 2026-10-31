@@ -1,0 +1,23 @@
+{
+  "name": "kingjbonex",
+  "owner": {
+    "name": "James Penning"
+  },
+  "metadata": {
+    "description": "Claude Code skills from jamespenning.dev: write in your own voice, learn from your edits, and make 8-bit crab GIFs about agents.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "blog-kit",
+      "description": "A self-improving voice loop (write-in-my-voice + learn-from-edits) and an 8-bit GIF maker (pixel-gif).",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/write-in-my-voice",
+        "./skills/learn-from-edits",
+        "./skills/pixel-gif"
+      ]
+    }
+  ]
+}
